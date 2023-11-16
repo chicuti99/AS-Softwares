@@ -1,0 +1,1 @@
+{"url":"wss://testbackend.takeat.app/printers","validarToken":true,"habilitado":false,"Run":true,"Habilitado":true}

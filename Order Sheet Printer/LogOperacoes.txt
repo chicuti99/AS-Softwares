@@ -1,0 +1,18 @@
+13/11/2023 15:33:25 
+1 recebidos com sucesso13/11/2023 15:33:29 
+Sucesso - PrintOrdersForPrinter(): impressora: POS58 Printer(teste1) , 26540043  
+ 
+ 
+13/11/2023 15:33:29 
+1 recebidos com sucesso13/11/2023 15:33:30 
+Sucesso - PrintOrdersForPrinter(): impressora: MP-4200 TH (Copiar 1)(teste) , 26540044  
+ 
+ 
+13/11/2023 16:49:45 
+Sucesso - PrintOrdersForPrinter(): impressora: MP-4200 TH (Copiar 1)(teste) , 0  
+ 
+ 
+13/11/2023 16:49:46 
+Sucesso - PrintOrdersForPrinter(): impressora: POS58 Printer(teste1) , 0  
+ 
+ 

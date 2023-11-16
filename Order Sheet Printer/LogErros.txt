@@ -1,0 +1,33 @@
+13/11/2023 15:33:05 
+System.IO.FileNotFoundException: Não foi possível localizar o arquivo 'C:\Program Files (x86)\AS Softwares\Order Sheet Printer\ConfigWS.txt'.
+Nome do arquivo: 'C:\Program Files (x86)\AS Softwares\Order Sheet Printer\ConfigWS.txt'
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   em System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   em System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   em System.IO.File.ReadAllText(String path)
+   em OrderSheetPrinter.Factory.ConfiguracaoWebSocket.CarregarConfiguracoes() na C:\Users\arthur\Documents\OrderSheetPrinter\OrderSheetPrinter\Factory\ConfiguracaoWebSocket.cs:linha 2113/11/23 15:33:23 
+O processo não pode acessar o arquivo 'C:\Program Files (x86)\AS Softwares\Order Sheet Printer\LogOperacoes.txt' porque ele está sendo usado por outro processo.13/11/2023 15:33:24 
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em OrderSheetPrinter.Services.PrinterService.Print(NovoPedido pedido, String impressora, Impressora impressora1) na C:\Users\arthur\Documents\OrderSheetPrinter\OrderSheetPrinter\Services\PrinterService.cs:linha 19313/11/2023 15:33:25 
+404 - Not Found13/11/2023 15:33:25 
+ERRO - PrintOrdersForPrinter(): impressora: MP-4200 TH (Copiar 1)(teste) , Garçom Digital -> System.IO.IOException: O processo não pode acessar o arquivo 'C:\Program Files (x86)\AS Softwares\Order Sheet Printer\LogOperacoes.txt' porque ele está sendo usado por outro processo.
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   em System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   em System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   em System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding)
+   em System.IO.File.InternalAppendAllText(String path, String contents, Encoding encoding)
+   em System.IO.File.AppendAllText(String path, String contents)
+   em OrderSheetPrinter.Auxiliar.LogOperacoes.OperatioSucess(String content, String data) na C:\Users\arthur\Documents\OrderSheetPrinter\OrderSheetPrinter\Auxiliar\LogOperacoes.cs:linha 63
+   em OrderSheetPrinter.Controller.FluxoImpressao.PrintOrdersForPrinter(Impressora printer, Sistema sistema) na C:\Users\arthur\Documents\OrderSheetPrinter\OrderSheetPrinter\Controller\FluxoImpressao.cs:linha 14013/11/23 16:49:44 
+Error converting value 1 to type 'OrderSheetPrinter.Model.ReportsDataSources.Payment_Method'. Path '[1].print_object.payment_method', line 1, position 3651.13/11/2023 16:49:45 
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em OrderSheetPrinter.Services.PrinterService.Print(NovoPedido pedido, String impressora, Impressora impressora1) na C:\Users\arthur\Documents\OrderSheetPrinter\OrderSheetPrinter\Services\PrinterService.cs:linha 19313/11/2023 16:49:45 
+404 - Not Found13/11/23 16:49:46 
+Error converting value 1 to type 'OrderSheetPrinter.Model.ReportsDataSources.Payment_Method'. Path '[1].print_object.payment_method', line 1, position 3651.13/11/2023 16:49:46 
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em OrderSheetPrinter.Services.PrinterService.Print(NovoPedido pedido, String impressora, Impressora impressora1) na C:\Users\arthur\Documents\OrderSheetPrinter\OrderSheetPrinter\Services\PrinterService.cs:linha 19313/11/2023 16:49:46 
+404 - Not Found
